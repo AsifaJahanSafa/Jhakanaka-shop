@@ -1,60 +1,77 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     font-family: "Poppins", sans-serif;
 }
 
+{
+    font-family: "Dancing Script", cursive;
+}
+
 .container{
-    max-width:900px;
-    margin: 0px auto;
+   max-width: 900px;
+   /* border:2px solid red; */
+   margin:0 auto;
    
-    /* border:1px solid red; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
 }
 
-.nav-icon img{
-    width: 60px;
-    object-fit:cover;
+.nav-icon{
+    /* border:2px solid green; */
+    width: 50%;
+   height: 60px;
 }
 
+.banner-logo img{
+    width: 70px;
+    object-fit: cover;
+    
+}
 
 .nav-icon{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+  
+    align-items:center ;
 }
-
-
-.shop{
-    color: #e893cf;
-    margin-left:10px;
+.banner-logo{
+    margin-right:10px;
+    
 }
-
+.nav-icon h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.Shop{
+    color: #cda2f3
+}
+.nav-text a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color:white
+   
+   
+}
 .nav-text{
+    /* border:2px solid green; */
+    width: 50%;
+    min-height: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap:20px
 }
 
-.nav-text a{
-    text-decoration: none;
-    color:#e6e9eb
-}
-
-
-
 .btn{
-    background: #e893cf;
-    padding: 10px 20px;
+    background-color: #cda2f3;
+    padding: 5px 10px;
     border-radius: 5px;
-    border:none;
     font-size: 16px;
-    font-weight: 800;
+    font-weight:600;
+    border:none
 }
 
-.header{background-color: #9376e0;}
+.header{
+    background-color: #9376e0;
+}
