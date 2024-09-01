@@ -23,7 +23,9 @@
         
     }
 
-
+    .banner{
+      flex-direction:column-reverse;
+    }
 
 
 
@@ -59,14 +61,40 @@
         
     }
 
+    .banner{
+      flex-direction:column-reverse;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+
+    .banner-btn-con{
+      flex-direction: column;
+      
+      margin:10px auto
+    }
 
 
 
+    .banner-icon{
+      display: flex;
+      margin-top:20px;
+      width:180px;
+      justify-content: space-evenly;
+     
+      margin:10px auto;
+      /* border:2px solid red */
+  }
 
+  .banner-text{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
 
-
-
-
-
+  .banner-img{
+    width:100%;
+   position: relative;
+}
     
 }
