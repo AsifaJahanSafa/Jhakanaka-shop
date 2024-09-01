@@ -1,0 +1,14 @@
+@media screen and (min-width:376px) and (max-width:990px) {
+   .nav-icon{
+    flex-direction: column;
+   }
+
+   .container{
+    flex-direction:column;
+    padding-bottom: 20px;
+   }
+
+   .nav-text{
+   
+    flex-direction:column;}
+}

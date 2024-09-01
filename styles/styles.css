@@ -7,10 +7,12 @@
 .container{
     max-width:900px;
     margin: 0px auto;
-    height: 50px;
+   
     /* border:1px solid red; */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-icon img{
@@ -21,6 +23,7 @@
 
 .nav-icon{
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -32,6 +35,7 @@
 
 .nav-text{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap:20px
@@ -41,7 +45,7 @@
     text-decoration: none;
     color:#e6e9eb
 }
-.header{background-color: #9376e0;}
+
 
 
 .btn{
@@ -52,3 +56,5 @@
     font-size: 16px;
     font-weight: 800;
 }
+
+.header{background-color: #9376e0;}
