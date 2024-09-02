@@ -77,7 +77,7 @@
 
 /* banner section start */
 .banner{
-    border:2px solid red;
+    /* border:2px solid red; */
    
     margin:10px auto;
     display: flex;
@@ -186,7 +186,7 @@
 
 .product-section{
    
-    border:2px solid red;
+    /* border:2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,6 +213,8 @@
     background-color: antiquewhite;
     border-radius: 8px;
     padding:20px;
+    box-shadow:
+   
    
    
 }
@@ -233,7 +235,7 @@
 .single-icon-div{
     display: flex;
     width: 120px;
-    border:2px solid red;
+    /* border:2px solid red; */
     justify-content: space-around;
 }
 
@@ -254,7 +256,7 @@
 .gallery-con{
     max-width: 900px;
     margin:0px auto;
-    border:2px solid red;
+    /* border:2px solid red; */
     background-color:bisque;
     border-radius: 8px;
     display: flex;
@@ -265,6 +267,12 @@
     
 }
 
+.single-gallery-img{
+    box-shadow:
+    inset 0 -3em 3em rgba(75, 79, 75, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(12, 11, 11, 0.6);
+}
 
 .gallery-title{
     padding: 20px 0;
@@ -274,7 +282,7 @@
 .gallery-img-con{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
     gap:20px;
     margin-top:40px
     
